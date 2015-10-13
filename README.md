@@ -18,4 +18,4 @@ drush --version
 
 # INSTALL
 
-cd /tmp; git clone "https://github.com/carcheky/Drush-Debian-7.git"; cd *Drush*; chmod +x install.sh; bash install.sh
+cd /tmp; git clone "https://github.com/carcheky/Drush-Debian-7.git"; cd Drush*; chmod +x install.sh; bash install.sh
