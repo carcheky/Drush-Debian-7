@@ -1,6 +1,15 @@
 # Drush-Debian-7
 Install drush in Debian 7
 
+# INSTALL drush 6
+cd /tmp; git clone "https://github.com/carcheky/Drush-Debian-7.git"; cd Drush*; chmod +x install-drush6.sh; bash install.sh
+
+# INSTALL drush 7
+cd /tmp; git clone "https://github.com/carcheky/Drush-Debian-7.git"; cd Drush*; chmod +x install-drush7.sh; bash install.sh
+
+
+
+
 # CONTENT SCRIPT
 sudo apt-get install git;
 curl -sS https://getcomposer.org/installer | php;
@@ -12,11 +21,3 @@ git checkout X.0.0;  #or whatever version you want.
 ln -s /usr/local/src/drush/drush /usr/bin/drush;
 composer install;
 drush --version;
-
-
-
-# INSTALL drush 6
-cd /tmp; git clone "https://github.com/carcheky/Drush-Debian-7.git"; cd Drush*; chmod +x install-drush6.sh; bash install.sh
-
-# INSTALL drush 7
-cd /tmp; git clone "https://github.com/carcheky/Drush-Debian-7.git"; cd Drush*; chmod +x install-drush7.sh; bash install.sh
