@@ -5,7 +5,7 @@ ln -s /usr/local/bin/composer /usr/bin/composer
 
 git clone https://github.com/drush-ops/drush.git /usr/local/src/drush
 cd /usr/local/src/drush
-git checkout 6.0.0  #or whatever version you want.
+git checkout 6  #or whatever version you want.
 ln -s /usr/local/src/drush/drush /usr/bin/drush
 composer install
 drush --version
