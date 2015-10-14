@@ -1,4 +1,3 @@
-# Drush-Debian-7
 Install drush in Debian 7
 
 # INSTALL drush 6
