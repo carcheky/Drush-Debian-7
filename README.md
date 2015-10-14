@@ -1,10 +1,10 @@
 Install drush in Debian 7
 
 # INSTALL drush 6
-cd /tmp; git clone "https://github.com/carcheky/Drush-Debian-7.git"; cd Drush*; chmod +x install-drush6.sh; bash install.sh
+rm -fr /tmp/Drush*; cd /tmp; git clone "https://github.com/carcheky/Drush-Debian-7.git"; cd Drush*; chmod +x install-drush6.sh; bash install.sh
 
 # INSTALL drush 7
-cd /tmp; git clone "https://github.com/carcheky/Drush-Debian-7.git"; cd Drush*; chmod +x install-drush7.sh; bash install.sh
+rm -fr /tmp/Drush*; cd /tmp; git clone "https://github.com/carcheky/Drush-Debian-7.git"; cd Drush*; chmod +x install-drush7.sh; bash install.sh
 
 
 
